@@ -50,7 +50,7 @@ pluralizeListTitles = false
   category = "categories"
 
 [params]
-  reportTitle = "STF"
+  reportTitle = "Sovereign Tech Fund"
   reportSubtitle = "Evaluationsbericht Pilotphase"
   
   dateform        = "Jan 2, 2006"
