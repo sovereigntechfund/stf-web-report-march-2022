@@ -1,0 +1,15 @@
++++
+title = "Introduction"
+layout = "single"
+weight = 2
++++
+
+Apple began engaging with the USSR back in the 1980s, with Steve Jobs even making a personal trip to meet the Soviet government to discuss Apple’s desired expansion into the region. Apple opened its first office in Russia in 2007 and launched its products and services to the country, despite Russia’s rampant state censorship. Today, Tim Cook frequently justifies Apple’s dealings with authoritarian governments, like Russia, with references to IBM’s deeply-flawed slogan of “world peace through world trade.” Apple’s history and present-day dealings with Russia are an excellent case study in how corporations’ reckless pursuit of profits can facilitate significant harm around the world.
+
+The [U.S. state department](https://www.state.gov/reports/2021-country-reports-on-human-rights-practices/russia/) published a report in 2021 noting Russia experiences “significant human rights issues” ranging from extrajudicial killings, to enforced disappearances and pervasive torture, to political and religious persecution. Apple’s strategic investments in Russia have assisted and facilitated the Russian government’s commission of human rights violations, mass atrocities, and war crimes.
+
+None of this should be a surprise to Apple. While the Russian Federation was only formed in 1993, it previously existed as part of the Soviet Union since 1922. Like modern day Russia, the Soviet Union was well known for systemic censorship and propaganda. 
+
+Today, Russia claims to be a federal semi-presidential republic, however, many argue the Russian government under Vladmir Putin is an authoritarian state, a kleptocracy, and that Putin is a dictator.  Since 2004, Russia has been ranked as ‘not free’ in Freedom House’s Freedom in the World report and recorded the sharpest decline in terms of digital freedom in its [2022 Freedom on the Net](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Tracking) report. The Economist Intelligence Unit recently ranked Russia as the ‘authoritarian regime’.
+
+Apple knew or should have known that the introduction of their services and products into Russia would result in demands by the Russian government to implement their century-old censorship, surveillance, and propaganda policies into Apple’s technology. Apple’s concurrent dealings with the Chinese government would have also informed Apple that authoritarian governments will often not accept “no” for an answer. Apple strategically invested in the Russian markets knowing that their presence there could, and likely would, further harmful and violent national policies. This report analyzes examples where Apple used its App Store, software, and physical products to implement the Russian government national censorship policies. It also takes a deeper look at Russia’s App Store and the unavailable apps that were identified by AppleCensorship’s App Store Monitor (ASM).

@@ -1,0 +1,25 @@
++++
+title = "Conclusion"
+layout = "single"
+weight = 6
++++
+
+Apple’s promises to fight for democracy and human rights were clearly contradicted with Apple’s involvement in subverting the efforts of Nalavany’s opposition party and censoring anti-corruption content. However, this has gone on for a long time. Apple partnered with Russian authorities and has watched passively its oppression, violation of human rights, and violation of international law. Apple not only did not pull support for Russia until it was legally required to due to sanctions, but Apple progressively invested and expanded in Russia whenever it was able to. 
+
+We can see that in the extent of censorship. At the time of AppleCensorship’s 2021 report, Russia was 19th/20 highest of app unavailability with 11.97%, now it is 14.87%, and continues to go up are more tests are being conducted by the App Store Monitor.
+
+[CensoredPlanet](https://censoredplanet.org/russia) warned that Russia’s effort over the past decade to control content on its decentralized networks and the lessons and experiences it has gathered in tightening control are applicable to networks in countries all over the world. Russia’s censorship architecture is a blueprint, and perhaps a forewarning of what national censorship regimes could look like in many other countries. Understanding decentralized control will be key to continuing to preserve Internet freedom for years to come.
+
+“Every meaningful, practical avenue for dissent is being systematically shut down,” Pavel Khodorkovsky [said](https://www.msn.com/en-us/news/world/putin-s-pre-war-moves-against-us-tech-giants-laid-groundwork-for-crackdown-on-free-expression/ar-AAUYy5r) in March 2022, who is founder of the New York-based Institute for Modern Russia, and whose father was one of Russia’s original oligarchs before spending a decade in prison after confronting Putin over corruption. “I don’t think it’s an over-dramatization to say that Putin is longing for a return to Soviet Union times,” Khodorkovsky said, “not only in geopolitical power but in terms of total control inside the state.”
+
+Apple’s relationship with the Russian authorities in general and its censorship apparatus, embodied by the Roskomnadzor, in particular, could also be used as a blueprint for other repressive regimes willing to keep a leash on foreign tech companies operating in their country. 
+
+Russia is a party to multiple international human rights instruments, including the International Covenant on Civil and Political Rights (ICCPR), the Commonwealth of Independent States Convention on Human Rights and Fundamental Freedoms (CIS Convention) and the Helsinki Final Act. All of these international instruments, as well as Russia’s own Constitution and customary international law, require the Russian authorities to respect human rights, including the right to freedom of expression.
+
+International law [allows](https://www.hrw.org/news/2021/12/24/russia-year-doubling-down-internet-censorship) for certain restrictions on freedom of expression online for protection of national security or of public order, health, or morals. Those restrictions, however, should be in line with the criteria of necessity, proportionality, and legality. The United Nations special rapporteur on freedom of expression has emphasized that international law requires these limits to be “provided by law, which is clear and accessible to everyone,” and to be predictable and transparent. The Russian authorities should stop imposing inappropriately extreme measures, such as throttling and blocking, on freedom of expression and access to information in a manner disproportionate to the conduct they sanction, HRW said.
+
+Apple purports to augment the freedoms of those living under autocratic rule, however Apple’s mix of cowardice and active cooperation with the censors in Russia has made Russians less free. Opposition leaders, journalists, NGOs, activists and other members of the civil society, and ultimately Russian citizens, could not rely on Apple’s platforms and services to access, organize, and disseminate information, as these have always been dependent on the government’s willingness to tolerate. 
+
+Nothing indicates that Apple’s policies and relationship with Russian authorities would change if the company were to fully resume its operations in the country. The exceptional nature of the ongoing conflict could well be a simple pause for the company. Today, visitors of the R[ussian Apple.com](https://store.apple.com/ru) page will find a notice that says “Магазин Apple Store в данный момент закрыт” or “The Apple Store is currently closed” with the outline of an Apple logo with an embellishment circling the logo mimicking the “loading” sign. The logo seems to imply Apple plans to return to Russia as soon as it will be legally allowed to do so. 
+
+{{% figure src="/img/graphics/russian-apple-com.png" alt="Russian Apple.com website" %}}
