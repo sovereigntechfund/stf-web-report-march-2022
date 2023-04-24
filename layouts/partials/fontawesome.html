@@ -2,6 +2,6 @@
     {{ $fname:=print "assets/icons/" . ".svg" }}
     {{- $svg := readFile $fname -}}
     {{- $commentStrippedSvg := replaceRE "<!--[^>]*-->" "" $svg -}}
-    {{- $filledPathSvg := replace $commentStrippedSvg "<path" "<path fill='currentColor'" -}}
+    {{- $filledPathSvg := replace $commentStrippedSvg "<path" "<path fill='#fff'" -}}
     {{ $filledPathSvg | safeHTML }}
 </span>
