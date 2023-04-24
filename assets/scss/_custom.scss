@@ -134,10 +134,6 @@ main {
   p, article, a {
     color: var(--text-opposite);
   }
-
-  p {
-    text-align: justify;
-  }
 }
 
 th {
@@ -725,9 +721,20 @@ hr {
 
 .light-theme-logo,
 .dark-theme-logo {
-  width: 32px;
 
   &.hidden {
     display: none;
+  }
+
+  svg {
+    width: 32px;
+  }
+
+  span {
+    color: var(--text-opposite);
+    
+    &.hidden {
+      display: none;
+    }
   }
 }
