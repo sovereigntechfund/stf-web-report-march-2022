@@ -1,5 +1,5 @@
 +++
-title = "Apple’s opaque and arbitrary curation policies during the war"
+title = "Sichtbarkeit"
 layout = "single"
 weight = 5
 +++

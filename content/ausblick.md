@@ -1,7 +1,7 @@
 +++
-title = "Recommendations"
+title = "Ausblick"
 layout = "single"
-weight = 7
+weight = 6
 +++
 
 Apple has to recognize that silence is complicity. It emboldens censors and makes online platforms that have become the basis for civic engagement even less safe for activists, NGOs, journalists, and all those who dare criticize their governments.

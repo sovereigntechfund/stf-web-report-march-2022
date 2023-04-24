@@ -66,15 +66,16 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
-    const showNavbar = (toggleId, sidebarId, navId, navTitle, bodyId) => {
+    const showNavbar = (toggleId, sidebarId, navId, navTitle, bodyId, logoClass) => {
       const toggle = document.getElementById(toggleId),
         sidebar = document.getElementById(sidebarId),
         nav = document.getElementById(navId),
         title = document.getElementById(navTitle),
-        bodypd = document.getElementById(bodyId);
+        bodypd = document.getElementById(bodyId),
+        logo = document.querySelector(logoClass);
 
       // Validate that all variables exist
-      if (toggle && sidebar && nav && title && bodypd ) {
+      if (toggle && sidebar && nav && title && bodypd && logo ) {
         toggle.addEventListener("click", () => {
           // show navbar
           nav.classList.toggle("d-none");
@@ -86,11 +87,13 @@
           toggle.classList.toggle("bx-x");
           // add padding to body
           bodypd.classList.toggle("body-pd");
+          //hide logo on toggle
+          logo.classList.toggle("d-none");
         });
       }
     };
 
-    showNavbar("toc-toggle", "left-sidebar", "nav-bar", "navTitle", "body-pd");
+    showNavbar("toc-toggle", "left-sidebar", "nav-bar", "navTitle", "body-pd", ".navbar-brand");
 
     // const linkColor = document.querySelectorAll(".nav_link");
 

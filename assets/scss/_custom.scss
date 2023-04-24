@@ -4,12 +4,12 @@
   --toggle: #{$primary};
   --background-color: #{$white};
   --primary-bg: #{$primary};
-  --text-color: #{$gray-800};
+  --text-color: #{$white};
   --text-muted: #{$gray-500};
   --link-color: #{$primary};
-  --link-visited: #5B21B6;
+  --link-visited: #5b21b6;
   --icon: #{$gray-900};
-  --sidebar: #{$gray-50};
+  --sidebar: #3E36A5;
   --blockquote: #{$gray-300};
   --caption: #{$gray-500};
   --border: #{$gray-200};
@@ -31,7 +31,7 @@
   --text-color: #{$white};
   --text-muted: #{$gray-200};
   --link-color: #{$blue};
-  --link-visited: #A78BFA;
+  --link-visited: #a78bfa;
   --icon: #{$white};
   --sidebar: #{$gray-900};
   --blockquote: #{$gray-100};
@@ -63,8 +63,7 @@ body {
   position: relative;
   line-height: 1.5;
   font-family: "Inter", sans-serif;
-  font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1,
-    "ss02" 1, "ss03" 1, "zero" 1;
+  font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1, "ss02" 1, "ss03" 1, "zero" 1;
   overflow-y: scroll;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -120,10 +119,35 @@ body {
 }
 
 .background-banner {
-  background-image: url(img/banner.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  // background-image: url(img/banner.webp);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  background-color: #{$primary};
+}
+
+main {
+  p, article, a {
+    color: #{$black};
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+th {
+  background-color: #{$purple};
+  color: #{$white};
+  text-align: center;
+}
+
+table {
+  tr {
+    td:first-child{
+      font-weight: bold;
+    }
+  }
 }
 
 // Headings
@@ -346,7 +370,7 @@ h6 {
 
 .toc-header {
   padding: 1rem;
-  color: var(--text-color);
+  // color: var(--text-color);
   background-color: var(--toc-header);
   border-radius: 0.25rem;
   text-decoration: none;
@@ -373,7 +397,7 @@ h6 {
 
     & a {
       text-decoration: none;
-      color: var(--icon);
+      color: #{$white};
 
       &.active:before {
         content: "";
@@ -421,6 +445,15 @@ figcaption {
 // Posts
 .post-content {
   position: relative;
+
+  h1 {
+    background-color: #{$black};
+    color: #{$white};
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
 
   & h2,
   h3,
@@ -483,8 +516,8 @@ figcaption {
   }
 
   & ul li {
-    list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23d41e33' d='M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z'%3E%3C/path%3E%3C/svg%3E");
-    
+    // list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23d41e33' d='M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z'%3E%3C/path%3E%3C/svg%3E");
+
     &::marker {
       font-size: 1.5rem;
     }
@@ -504,7 +537,7 @@ figcaption {
 
   & figure.smaller {
     text-align: start;
-    
+
     & img {
       width: 250px;
     }
@@ -517,10 +550,15 @@ figcaption {
   }
 
   & blockquote {
-    padding: 0 0 0 1.5rem;
-    border-left: 0.5rem solid var(--blockquote);
     font-style: italic;
     margin-block: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #{$black};
+    box-shadow: 10px 10px 0 0 #{$black};
+
+    p {
+      margin: 0;
+    }
   }
 
   & table {
@@ -582,7 +620,7 @@ figcaption {
     color: var(--link-color) !important;
 
     &:visited {
-      color: #A78BFA;
+      color: #a78bfa;
     }
   }
 
@@ -653,5 +691,16 @@ figcaption {
       right: 0;
       bottom: 0;
     }
+  }
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-family: 'Barlow Bold';
+  letter-spacing: 0.135em;
+
+  span {
+    text-decoration: underline;
+    color: #{$primary};
   }
 }

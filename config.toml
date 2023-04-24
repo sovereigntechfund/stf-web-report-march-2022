@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Apple Censorship Report"
+title = "Sovereign Tech Fund"
 
 languageCode = "en-us"
 
@@ -32,7 +32,7 @@ pluralizeListTitles = false
 # blog = "/blog/:filename/"
 
 [author]
-  name = "Apple Censorship"
+  name = "Sovereign Tech Fund"
   email = "contact@applecensorship.com"
 
 [markup]
@@ -50,8 +50,8 @@ pluralizeListTitles = false
   category = "categories"
 
 [params]
-  reportTitle = "United Apple"
-  reportSubtitle = "Apple’s censorship and compromises in Russia"
+  reportTitle = "STF"
+  reportSubtitle = "Evaluationsbericht Pilotphase"
   
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
