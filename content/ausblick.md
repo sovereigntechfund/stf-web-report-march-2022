@@ -4,45 +4,66 @@ layout = "single"
 weight = 6
 +++
 
-Apple has to recognize that silence is complicity. It emboldens censors and makes online platforms that have become the basis for civic engagement even less safe for activists, NGOs, journalists, and all those who dare criticize their governments.
+In der „Start-up-Phase” des STF konnte durch die Inkubation in der
+SPRIND agil gearbeitet und schnell Ergebnisse produziert werden.
 
-To curb the growing [threat](https://www.aljazeera.com/opinions/2021/11/1/why-are-google-and-apple-still-silent-on-russia-censorship) of internet and mobile apps’ censorship, we need transparency from Big Tech companies on how such political demands are being dealt with and how they will ensure they will not cave in to them each time, to the detriment of their users. Commitments to human rights and freedom of expression need to be translated from PR rhetoric to actual corporate policies. Otherwise, it would mean that users are left on their own to fend for their internet rights against the growing power of censors. There also needs to be action taken by democratic governments. They need to make a clear and unequivocal stand against international companies being forced to become tools of oppression and come up with solid policies to help prevent that. The upcoming democracy summit, hosted by Biden in December, can be a great venue to start this conversation and take concrete steps to protect internet freedom from autocratic encroachment. If we do not act now, it may soon be too late. Precedents set today may turn into the order of the day tomorrow, undermining digital freedoms for us all.
+Beim weiteren Aufbau des Projekts kommen allerdings **neue Anforderungen** hinzu: Das
+gestiegene Finanzvolumen und die damit einhergehende größere Gruppe an
+Investitionsprojekten erfordern mehr personelle Ressourcen und die erprobten
+Prozesse müssen skaliert sowie die Organisationsentwicklung weiter professionalisiert
+werden. Dazu gehört die Bewerbungsplattform, um nicht nur durch das aktive Scouten
+(pull), sondern auch für Einreichungen (push) erreichbar zu sein, und das Ergänzen der
+qualitativen Auswahl von Technologien durch **quantitative Metriken**.
 
-Putin’s regime has long relied on thuggery to oppress, from beating protesters and a botched attempt to assassinate Navalny to jailing him as he was still recovering from being poisoned. So it’s no surprise that after Navalny’s imprisonment prompted mass nationwide protests, the Kremlin would try to control every possible election risk, including by strong-arming US tech companies.
+Weitere Schritte müssen sukzessive aufgebaut werden, darunter der **Aufbau einer Datenbank** relevanter offener digitaler Basistechnologien, die proaktive
+Investitionsentscheidungen und eine Verschränkung politischer Ziele mit gezielten
+Investitionen in kritische Softwarekomponenten ermöglichen soll sowie Mechanismen
+für das **Matchfunding** mit privaten oder anderen öffentlichen Akteuren. Neben den
+finanziellen Investitionen wird auch ein **Katalog an Zusatzleistungen** aufgebaut, welche
+explizit die Nachhaltigkeit der Vorhaben unterstützen sollen. Dazu gehören u. a.
+Trainings für Community-Aufbau und Nachwuchs- sowie Diversity-Förderung,
+Security-Audits und Unterstützung bei Open-Source-Strategien in KMU.
 
-Apple and other Big Tech companies need to think much harder about the costs and risks of having employees on the ground who the Kremlin can threaten. Closing their Russian offices might prompt the Russian government to use technical measures against the companies’ web-based services, such as throttling access from within Russia (as it did with Twitter back in April). Yet these companies are no strangers to facing technical blocking attempts in autocracies, and censorship demands over email or the phone are much easier to ignore when the state cannot haul employees into detention centers or interrogation rooms and threaten their physical safety. Theoretically, using the internet to resist dictatorship from afar is one thing; risking physical safety while doing so is another entirely.
+Darüber hinaus werden zwei Gruppen um den STF institutionalisiert: Zum einen eine
+größere **Gruppe an Berater:innen aus der Community, Wirtschaft und Verwaltung** mit
+einem herausragenden Feldwissen und weitreichender Vernetzung im
+Open-Source-Ökosystem, um die Scoutingprozesse des Programmteams zu
+unterstützen und zu ergänzen. Zum anderen eine kleinere Gruppe als **Gremium an Expert:innen, um die Investitionsentscheidungen zu begleiten und zu überprüfen**. Die
+Kommunikation der Ziele des STF und die gesellschaftliche Relevanz dieser sollen
+ausgebaut werden, was mehr Ressourcen für Outreach, eine umfangreichere Website
+und mehr Veröffentlichungen erfordert.
 
-1. **Apple should take measures to prevent any return to a normalization of its relationship with Russian government in the identical terms that were observed prior to February 24, 2022**.
-2. **Apple should provide full transparency regarding its apps distribution platform in Russia**:
+Als **neuer Programmbereich** innerhalb des STF wird ein **Bug-Resilience-Programm**
+pilotiert, dessen Ziel ergänzende Maßnahmen zur Unterstützung des
+Open-Source-Ökosystems sind. Der Ansatz ergänzt bestehende
+Bug-Bounty-Programme um einen stärkeren Fokus auf die Entwickler:innen im
+Ökosystem, von deren Arbeit das Vermeiden und Fixen von Sicherheitslücken abhängt.
+Dazu wird ein dreistufiges Programm konzipiert und getestet, welches Forschung,
+Training und Bug Bounties beinhaltet. Das Bug-Resilience-Programm soll Projekten, die
+durch den STF unterstützt wurden, zur Verfügung stehen, aber auch für andere Akteure
+offen sein, die an kritischen Softwarekomponenten arbeiten.
 
-Apple should allow the public to understand how the Russian government has been attempting to remove (or censor) content, by providing information on:
+Trotz der inhaltlichen und organisatorischen guten Passung des STF und der SPRIND
+(durch Missionsorientierung, Nähe zum Thema sowie passende Arbeitsabläufe und
+Prozesse) hat der **STF individuelle Anforderungen an Abläufe über die Pilotphase hinaus und ein eigenständiges Thema**, das sonst nirgends behandelt wird und dessen
+Wichtigkeit **eine eigene Organisationsform und die damit einhergehende Sichtbarkeit erfordert**. Die aktuelle (internationale) Aufmerksamkeit für das Thema ist
+bemerkenswert. Deutschland wird in vielen Gesprächen, insbesondere auf EU-Ebene
+und in den USA, mit dem STF als Vorreiter in einem neuen Feld gesehen, in dem
+Investitionen in die Grundlagen einer modernen Wirtschaft und Verwaltung lange
+überfällig sind. Die zu erwartenden Effekte auf das Open-Source-Ökosystem werden
+allseits als sehr positiv eingeschätzt.
 
-- the reasons it provided for each of its requests, including the specific laws and/or guidelines the apps allegedly broke; 
-- the rules and procedures that Apple follows when dealing with these requests and if specific rules are enforced in its Russia’s App Store;
-- a copy of Apple’s internal procedures;
-- a timeline of the requests being filed, the length of time it took to consider each request, and the point at which the apps specified were removed from Russia’s App Store.
+Für den nachhaltigen Erfolg des STF empfiehlt es sich, die pragmatischen und
+langfristig erfolgversprechendsten Ansätze zu verbinden. Eine weiterhin enge
+Anbindung an die SPRIND würde **keinen Geschwindigkeitsverlust** bei der Umsetzung
+und dem weiteren Aufbau des STF bedeuten. Die aktuelle Vorreiterrolle des STF sollte
+gehalten werden und der Ansatz als Blaupause für andere Akteure im Feld dienen. Eine
+eigenständige Rechts- und Organisationsform ist notwendig, damit der STF in der
+Community und bei anderen Stakeholdern als **eigenständiger Akteur** gesehen wird, die
+**Bedeutung der Mission** des STF das entsprechende Gewicht bekommt sowie die „Marke
+STF” und die **Sichtbarkeit** weiter ausgebaut werden können.
 
-3. **Apple should also provide:**
-
-- Data on app rejections or removals it made according to any categorical requests from the Russian government, which do not specify apps but do function as blanket legal violation requests;
-- Data on the rejection and removal decisions it made after requests from Russian third parties (other than government agencies or official bodies with legal powers).
-- Details of the apps it rejected or removed of its own accord from Russia’s App Store, whether these removals are due to guideline violations, proactive takedowns of apps which break local laws, or government-requested category bans.
-- A list of all apps which remain on Russia’s App Store but are blocked by the government. Apple should further inform users of such blocks directly on the app description page within the App Store.
-
-4. **Regarding transparency and accountability**:
-
-- Apple should adopt all [recommendations](https://applecensorship.com/taken-down-a-look-into-apples-transparency-reports/#Download-the-Report) previously made by AppleCensorship and included in its report [“Taken Down” A Look into Apple’s Transparency Reports](https://applecensorship.com/wp-content/uploads/2022/04/AppleCensorships-Taken-Down-Report-Digital.pdf), published on April 21, 2022;
-- Apple should model its Transparency Reports on the efforts of other companies, such as Twitter and Google, to provide as much - rather than as little - useful information as possible. This would include the addition of many of the details listed above, as well as a broader effort to use the Transparency Reports to resist - rather than enable and conceal - censorship and repressive governance.
-
-5. **Regarding transparency and accountability:**
-
-- Apple should take measures to make itself less vulnerable to the Russian government’s pressure and censorship demands, and in particular:
-- Allow “sideloading” of apps on iOS devices in order to make censorship requests a less efficient tool for the authorities;
-- Take measures to ensure safety for its staff to limit Russian government’s intimidation and censorship pressure, including relocation of staff abroad (like Microsoft, [Google](https://www.wsj.com/articles/google-to-shut-engineering-office-in-russia-1418342838?mod=wsj_nview_latest) and [Adobe](https://www.economist.com/europe/2014/10/04/on-the-edge-of-recession) in 2014);
-- Work with other tech companies targeted by censorship demands in order to better resist abusive requests;
-- Engage with Russian civil society organizations to understand the impact of its decisions regarding Russia’s App Store, to learn how to become more resilient to censorship and to discuss ways to protect members of civil society organizations using iOS devices;
-
-6. **Apple should adhere to the [UN Guiding Principles on Business and Human Rights](https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf) in order to address adverse human rights impacts with which it is involved, and in particular:**
-
-- To avoid causing or contributing to adverse human rights impacts through its App Store’s Platform Policy in Russia;
-- To seek to prevent or mitigate adverse human rights impacts that are directly linked to its App Store, iOS devices or other services by its business relationships with Russian government and relevant bodies and agencies.
+Im ersten halben Jahr des STF haben sich die Annahmen aus der Machbarkeitsstudie
+bewahrheitet. Der Bedarf, die Relevanz und die Akzeptanz für das Programm haben die
+Erwartungen überstiegen. Die erarbeiteten Ansätze und Prozesse im STF haben sich in
+der Validierung als praktikabel bewiesen und können nun skaliert werden.

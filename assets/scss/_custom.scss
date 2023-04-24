@@ -143,6 +143,10 @@ th {
 }
 
 table {
+  box-shadow: 5px 5px 0 0 #{$black};
+  border-color: #{$black};
+  margin-bottom: 2rem;
+  
   tr {
     td:first-child{
       font-weight: bold;
