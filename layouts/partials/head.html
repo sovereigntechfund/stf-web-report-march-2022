@@ -26,10 +26,10 @@
 
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-{{ range $val := $.Site.Params.customCSS }} {{ if gt (len $val) 0 }}
+<!-- {{ range $val := $.Site.Params.customCSS }} {{ if gt (len $val) 0 }}
 <link rel="stylesheet" type="text/css" href="{{ $val }}" integrity="{{ $style.Data.Integrity }}" />
 {{ end }} 
-{{ end }}
+{{ end }} -->
 
 {{ partial "animation.html" . }}
 
