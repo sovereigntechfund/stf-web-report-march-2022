@@ -3,8 +3,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  src: local("Inter Light"), url("../fonts/inter/inter-300.woff2") format("woff2"),
-    url("../fonts/inter/inter-300.woff") format("woff");
+  src: local("Inter Light"), url("../../static/fonts/inter/inter-300.woff2") format("woff2"),
+    url("../../static/fonts/inter/inter-300.woff") format("woff");
 }
 
 /* inter-regular - latin */
@@ -12,8 +12,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: local("Inter Regular"), url("../fonts/inter/inter-regular.woff2") format("woff2"),
-    url("../fonts/inter/inter-regular.woff") format("woff");
+  src: local("Inter Regular"), url("../../static/fonts/inter/inter-regular.woff2") format("woff2"),
+    url("../../static/fonts/inter/inter-regular.woff") format("woff");
 }
 
 /* inter-500 - latin */
@@ -21,8 +21,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  src: local("Inter Medium"), url("../fonts/inter/inter-500.woff2") format("woff2"),
-    url("../fonts/inter/inter-500.woff") format("woff");
+  src: local("Inter Medium"), url("../../static/fonts/inter/inter-500.woff2") format("woff2"),
+    url("../../static/fonts/inter/inter-500.woff") format("woff");
 }
 
 /* inter-600 - latin */
@@ -30,8 +30,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  src: local("Inter SemiBold"), url("../fonts/inter/inter-600.woff2") format("woff2"),
-    url("../fonts/inter/inter-600.woff") format("woff");
+  src: local("Inter SemiBold"), url("../../static/fonts/inter/inter-600.woff2") format("woff2"),
+    url("../../static/fonts/inter/inter-600.woff") format("woff");
 }
 
 /* inter-700 - latin */
@@ -39,8 +39,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: local("Inter Bold"), url("../fonts/inter/inter-700.woff2") format("woff2"),
-    url("../fonts/inter/inter-700.woff") format("woff");
+  src: local("Inter Bold"), url("../../static/fonts/inter/inter-700.woff2") format("woff2"),
+    url("../../static/fonts/inter/inter-700.woff") format("woff");
 }
 
 /* inter-800 - latin */
@@ -48,8 +48,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  src: local("Inter ExtraBold"), url("../fonts/inter/inter-800.woff2") format("woff2"),
-    url("../fonts/inter/inter-800.woff") format("woff");
+  src: local("Inter ExtraBold"), url("../../static/fonts/inter/inter-800.woff2") format("woff2"),
+    url("../../static/fonts/inter/inter-800.woff") format("woff");
 }
 
 /* inter variable - latin */
@@ -59,7 +59,7 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url("../fonts/inter/inter.var.woff2") format("woff2");
+  src: url("../../static/fonts/inter/inter.var.woff2") format("woff2");
 }
 
 @font-face {
@@ -68,7 +68,7 @@
   font-display: swap;
   font-style: italic;
   font-named-instance: 'Italic';
-  src: url("../fonts/inter/inter.var.woff2") format("woff2");
+  src: url("../../static/fonts/inter/inter.var.woff2") format("woff2");
 }
 
 // Barlow
@@ -77,7 +77,7 @@
   font-family: "Barlow Thin";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/barlow/Barlow-Thin.ttf")
+  src: url("../../static/fonts/barlow/Barlow-Thin.ttf")
 }
 
 /* inter-regular - latin */
@@ -85,7 +85,7 @@
   font-family: "Barlow Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/barlow/Barlow-Regular.ttf")
+  src: url("../../static/fonts/barlow/Barlow-Regular.ttf")
 }
 
 /* inter-500 - latin */
@@ -93,7 +93,7 @@
   font-family: "Barlow Medium";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/barlow/Barlow-Medium.ttf")
+  src: url("../../static/fonts/barlow/Barlow-Medium.ttf")
 }
 
 /* inter-600 - latin */
@@ -101,7 +101,7 @@
   font-family: "Barlow SemiBold";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/barlow/Barlow-SemiBold.ttf")
+  src: url("../../static/fonts/barlow/Barlow-SemiBold.ttf")
 }
 
 /* inter-700 - latin */
@@ -109,7 +109,7 @@
   font-family: "Barlow Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/barlow/Barlow-Bold.ttf")
+  src: url("../../static/fonts/barlow/Barlow-Bold.ttf")
 }
 
 /* inter-800 - latin */
@@ -117,5 +117,5 @@
   font-family: "Barlow ExtraBold";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/barlow/Barlow-ExtraBold.ttf")
+  src: url("../../static/fonts/barlow/Barlow-ExtraBold.ttf")
 }
