@@ -460,6 +460,18 @@ figcaption {
     font-size: 1.1rem;
   }
 
+  blockquote {
+    font-style: italic;
+    margin-block: 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--text-opposite);
+    box-shadow: 10px 10px 0 0 var(--text-opposite);
+  
+    p {
+      margin: 0;
+    }
+  }
+
   & h2,
   h3,
   h4,
@@ -584,18 +596,6 @@ figcaption {
       color: $white;
       background-color: $primary;
     }
-  }
-}
-
-blockquote {
-  font-style: italic;
-  margin-block: 1.5rem;
-  padding: 1rem;
-  border: 1px solid var(--text-opposite);
-  box-shadow: 10px 10px 0 0 var(--text-opposite);
-
-  p {
-    margin: 0;
   }
 }
 
