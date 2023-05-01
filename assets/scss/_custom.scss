@@ -455,7 +455,6 @@ figcaption {
   h1 {
     background-color: var(--text-opposite);
     color: var(--header-color);
-    font-weight: 400;
   }
 
   p {
@@ -463,11 +462,11 @@ figcaption {
   }
 
   blockquote {
-    font-style: italic;
-    margin-block: 1.5rem;
-    padding: 1rem;
-    border: 1px solid var(--text-opposite);
-    box-shadow: 10px 10px 0 0 var(--text-opposite);
+    font-style: italic !important;
+    margin-block: 1.5rem !important;
+    padding: 1rem !important;
+    border: 1px solid var(--text-opposite) !important;
+    box-shadow: 10px 10px 0 0 var(--text-opposite) !important;
   
     p {
       margin: 0;
