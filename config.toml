@@ -59,8 +59,8 @@ pluralizeListTitles = false
   dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
-  description = "AppleCensorship provides data and resources to expose corporate censorship"
-  keywords = "apple, censorship, store, apps, ios, mac, macos, public, developer, privacy, security, foss"
+  description = "STF"
+  keywords = "stf, report"
   images = ["img/default.png"]
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
