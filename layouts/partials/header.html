@@ -12,7 +12,6 @@
     <span class="page-title">{{.Site.Title}}</span>
   </a>
 
-
   <hr />
 
   <div id="navTitle" class="title">
@@ -23,69 +22,65 @@
   <hr />
 
   <button id="theme-toggle" class="themetoggle" aria-label="Toggle Dark Theme">
-    <span class="moon" aria-hidden="true">{{ partial "fontawesome.html" "regular/moon" }}</span> <span class="sun"
-      aria-hidden="true">{{ partial "fontawesome.html" "regular/sun-bright" }}</span><span class="hidden-text moon">Dark
-      Theme</span><span class="hidden-text sun">Light Theme</span>
+    <span class="moon" aria-hidden="true">{{ partial "fontawesome.html" "regular/moon" }}</span> <span class="sun" aria-hidden="true">{{ partial "fontawesome.html" "regular/sun-bright" }}</span
+    ><span class="hidden-text moon">Dark Theme</span><span class="hidden-text sun">Light Theme</span>
   </button>
 
   <button id="toc-toggle" class="toctoggle" aria-label="Collapse Table of Contents">
-    <span class="close" aria-hidden="true">{{ partial "fontawesome.html" "solid/arrow-left-to-line" }}</span> <span
-      class="open" aria-hidden="true">{{ partial "fontawesome.html" "solid/arrow-right-from-line" }}</span> <span
-      class="hidden-text">Collapse Table
-      of Contents</span>
+    <span class="close" aria-hidden="true">{{ partial "fontawesome.html" "solid/arrow-left-to-line" }}</span>
+    <span class="open" aria-hidden="true">{{ partial "fontawesome.html" "solid/arrow-right-from-line" }}</span> <span class="hidden-text">Collapse Table of Contents</span>
   </button>
 
   <script>
-    let theme = localStorage.getItem("data-theme");
-    const themeToggle = document.querySelector("#theme-toggle");
-    const mobileToggle = document.querySelector("#mobile-toggle");
+    let theme = localStorage.getItem('data-theme');
+    const themeToggle = document.querySelector('#theme-toggle');
+    const mobileToggle = document.querySelector('#mobile-toggle');
 
     const changeThemeToDark = () => {
-      document.documentElement.setAttribute("data-theme", "dark");
-      localStorage.setItem("data-theme", "dark");
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('data-theme', 'dark');
     };
 
     const changeThemeToLight = () => {
-      document.documentElement.setAttribute("data-theme", "light");
-      localStorage.setItem("data-theme", "light");
-
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('data-theme', 'light');
     };
 
-    if (theme === "dark") {
+    if (theme === 'dark') {
+      document.querySelector('.light-theme-logo').classList.add('hidden');
+      document.querySelector('.dark-theme-logo').classList.remove('hidden');
       changeThemeToDark();
-      document.querySelector('.dark-theme-logo').classList.remove("hidden")
-      document.querySelector('.light-theme-logo').classList.add("hidden")
     }
 
-    if (theme === "light") {
+    if (theme === 'light') {
+      document.querySelector('.dark-theme-logo').classList.add('hidden');
+      document.querySelector('.light-theme-logo').classList.remove('hidden');
       changeThemeToLight();
-      document.querySelector('.light-theme-logo').classList.remove("hidden")
-      document.querySelector('.dark-theme-logo').classList.add("hidden")
     }
 
-    themeToggle.addEventListener("click", () => {
-      let theme = localStorage.getItem("data-theme");
-      if (theme === "dark") {
+    themeToggle.addEventListener('click', () => {
+      let theme = localStorage.getItem('data-theme');
+      if (theme === 'dark') {
         changeThemeToLight();
-        document.querySelector('.light-theme-logo').classList.remove("hidden")
-        document.querySelector('.dark-theme-logo').classList.add("hidden")
+        document.querySelector('.light-theme-logo').classList.remove('hidden');
+        document.querySelector('.dark-theme-logo').classList.add('hidden');
       } else {
         changeThemeToDark();
-        document.querySelector('.dark-theme-logo').classList.remove("hidden")
-        document.querySelector('.light-theme-logo').classList.add("hidden")
+        document.querySelector('.dark-theme-logo').classList.remove('hidden');
+        document.querySelector('.light-theme-logo').classList.add('hidden');
       }
     });
 
-    mobileToggle.addEventListener("click", () => {
-      let theme = localStorage.getItem("data-theme");
-      if (theme === "dark") {
+    mobileToggle.addEventListener('click', () => {
+      let theme = localStorage.getItem('data-theme');
+      if (theme === 'dark') {
         changeThemeToLight();
-        document.querySelector('.light-theme-logo').classList.remove("hidden")
-        document.querySelector('.dark-theme-logo').classList.add("hidden")
+        document.querySelector('.light-theme-logo').classList.remove('hidden');
+        document.querySelector('.dark-theme-logo').classList.add('hidden');
       } else {
         changeThemeToDark();
-        document.querySelector('.dark-theme-logo').classList.remove("hidden")
-        document.querySelector('.light-theme-logo').classList.add("hidden")
+        document.querySelector('.dark-theme-logo').classList.remove('hidden');
+        document.querySelector('.light-theme-logo').classList.add('hidden');
       }
     });
   </script>
@@ -94,7 +89,7 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function (event) {
+  document.addEventListener('DOMContentLoaded', function (event) {
     const showNavbar = (toggleId, sidebarId, navId, navTitle, bodyId) => {
       const toggle = document.getElementById(toggleId),
         sidebar = document.getElementById(sidebarId),
@@ -104,28 +99,28 @@
 
       // Validate that all variables exist
       if (toggle && sidebar && nav && title && bodypd) {
-        toggle.addEventListener("click", () => {
+        toggle.addEventListener('click', () => {
           // show navbar
-          nav.classList.toggle("d-none");
+          nav.classList.toggle('d-none');
           // show title
-          title.classList.toggle("invisible");
+          title.classList.toggle('invisible');
           // show navbar
-          sidebar.classList.toggle("show");
+          sidebar.classList.toggle('show');
           // change icon
-          toggle.classList.toggle("bx-x");
+          toggle.classList.toggle('bx-x');
           // add padding to body
-          bodypd.classList.toggle("body-pd");
+          bodypd.classList.toggle('body-pd');
 
-          var pageTitles = document.querySelectorAll('.page-title')
+          var pageTitles = document.querySelectorAll('.page-title');
 
           pageTitles.forEach((pageTitle) => {
-            pageTitle.classList.toggle("hidden")
-          })
+            pageTitle.classList.toggle('hidden');
+          });
         });
       }
     };
 
-    showNavbar("toc-toggle", "left-sidebar", "nav-bar", "navTitle", "body-pd");
+    showNavbar('toc-toggle', 'left-sidebar', 'nav-bar', 'navTitle', 'body-pd');
 
     // const linkColor = document.querySelectorAll(".nav_link");
 
