@@ -21,11 +21,30 @@ in Planung befindet sich das Matchfunding mit größeren Unternehmen für die Ar
 kritischen offenen Softwarekomponenten sowie ein Katalog an nicht-monetären
 Unterstützungsangeboten.
 
-| IN PLANUNG | IN AUFBAU | IN DURCHFÜHRUNG |
-| ---------- | --------- | --------------- |
-| Angebot nicht-monetärer Unterstützungsleistungen (Externe Expertise) | Metrikbasierte Analyse | Dialog mit Community und Ambassadors (Qualitativ) |
-| Matchfunding mit Unternehmen und anderen Organisationen (Subvention) | Datenbank förderfähiger Softwarekomponenten | Offene Bewerbung (Fortlaufend) |
-| | | Einzelförderung (Interne Expertise) |
+<div class="scrollable-table">
+<table>
+<thead>
+<th>IN PLANUNG</th>
+<th>IN AUFBAU</th>
+<th>IN DURCHFÜHRUNG</th>
+</thead>
+<tr>
+<td>Angebot nicht-monetärer Unterstützungsleistungen (Externe Expertise)</td>
+<td>Metrikbasierte Analyse</td>
+<td>Dialog mit Community und Ambassadors (Qualitativ)</td>
+</tr>
+<tr>
+<td>Matchfunding mit Unternehmen und anderen Organisationen (Subvention)</td>
+<td>Datenbank förderfähiger Softwarekomponenten</td>
+<td>Offene Bewerbung (Fortlaufend)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Einzelförderung (Interne Expertise)</td>
+</tr>
+</table>
+</div>
 
 Das **Scouting** der Pilotrunde wurde durch das Programmteam des STF durchgeführt,
 das dafür mit **Vertreter:innen der Open-Source-Community** sprach und existierende
@@ -111,41 +130,41 @@ Technologien profitiert, künftig stärker in die Finanzierung einbezogen werden
 In diesem Rahmen konnten die Projekte hervorragende **Ergebnisse** erzielen:
 
 - „Software ist nie fertig." Eine abgeschlossene Entwicklungsphase und ein
-abgeschlossener Meilenstein, die den Grundstein für die zukünftige Arbeit und
-die Stabilität der Software legen, sind ein großer Erfolg. Die Projekte waren in
-der Lage, sich an die laufenden Veränderungen in der (digitalen) Welt
-anzupassen, was die Relevanz der Technologie sowie ihre Leistungsfähigkeit
-und Benutzerfreundlichkeit förderte. Die STF-Förderung ermöglichte es, an der
-internen Architektur der Technologie zu arbeiten und nicht nur an den Rändern,
-wie es in der Regel in Support-Verträgen mit Unternehmen vorgesehen ist. Das
-zahlt auf das Ziel einer **digitalen Daseinsvorsorge** ein.
+  abgeschlossener Meilenstein, die den Grundstein für die zukünftige Arbeit und
+  die Stabilität der Software legen, sind ein großer Erfolg. Die Projekte waren in
+  der Lage, sich an die laufenden Veränderungen in der (digitalen) Welt
+  anzupassen, was die Relevanz der Technologie sowie ihre Leistungsfähigkeit
+  und Benutzerfreundlichkeit förderte. Die STF-Förderung ermöglichte es, an der
+  internen Architektur der Technologie zu arbeiten und nicht nur an den Rändern,
+  wie es in der Regel in Support-Verträgen mit Unternehmen vorgesehen ist. Das
+  zahlt auf das Ziel einer **digitalen Daseinsvorsorge** ein.
 
 - Die geförderte Entwicklungsarbeit unterstützt nicht nur den Erfolg der
-Technologie, sondern auch die persönliche Karriere der Geförderten. Unter
-Erfolg wird in diesem Zusammenhang verstanden, dass es möglich ist, den
-eigenen Lebensunterhalt durch die Arbeit, der man sich verpflichtet fühlt, zu
-sichern. Projekte können instabil sein, wenn sie sich nur auf Kompetenzen und
-Verfügbarkeit eine:r einzige:n Entwickler:in oder einer kleinen Gruppe stützen.
+  Technologie, sondern auch die persönliche Karriere der Geförderten. Unter
+  Erfolg wird in diesem Zusammenhang verstanden, dass es möglich ist, den
+  eigenen Lebensunterhalt durch die Arbeit, der man sich verpflichtet fühlt, zu
+  sichern. Projekte können instabil sein, wenn sie sich nur auf Kompetenzen und
+  Verfügbarkeit eine:r einzige:n Entwickler:in oder einer kleinen Gruppe stützen.
 
 - Ein signifikanter Zuwachs an **Entwicklungskraft und Personal**, der die:den
-bisherigen Kernentwickler:in entlastet, ist ein bedeutender Erfolg für die
-Projekte. Sie sind dann in der Lage, Verantwortlichkeiten und Arbeitspakete auf
-mehrere Schultern zu verteilen. Projekte, die Teil einer größeren Community
-sind, waren in der Lage, eine gesunde Community von Contributor:innen zu
-erhalten und aufzubauen, die in der Lage und bereit sind, ihre Zeit einzubringen,
-um als Maintainer:in und Mentor:in für Neue zu fungieren.
+  bisherigen Kernentwickler:in entlastet, ist ein bedeutender Erfolg für die
+  Projekte. Sie sind dann in der Lage, Verantwortlichkeiten und Arbeitspakete auf
+  mehrere Schultern zu verteilen. Projekte, die Teil einer größeren Community
+  sind, waren in der Lage, eine gesunde Community von Contributor:innen zu
+  erhalten und aufzubauen, die in der Lage und bereit sind, ihre Zeit einzubringen,
+  um als Maintainer:in und Mentor:in für Neue zu fungieren.
 
 > „Wenn du freiwillig an einem Projekt mitarbeitest, wird es immer deine letzte Priorität sein - wenn du auch nur ein wenig bezahlt wirst, wird es nicht die allerletzte sein."
 
 - Die Arbeit an Open-Source-Software (OSS) bedeutet, Teil einer größeren
-Gemeinschaft zu sein. So konnten die Projekte erfolgreich **Beziehungen** zu
-anderen Projekten aufbauen und die Kommunikation und Zusammenarbeit
-zwischen sich verbessern.
+  Gemeinschaft zu sein. So konnten die Projekte erfolgreich **Beziehungen** zu
+  anderen Projekten aufbauen und die Kommunikation und Zusammenarbeit
+  zwischen sich verbessern.
 
 - **Stabilität** wurde als ein weiteres Merkmal für Erfolg angesehen. Ein Projekt war
-in der Lage, ein globales Notfallteam einzurichten, um Ausfallzeiten zu
-vermeiden und sich nicht (allein) auf freiwilliges Engagement verlassen zu
-müssen.
+  in der Lage, ein globales Notfallteam einzurichten, um Ausfallzeiten zu
+  vermeiden und sich nicht (allein) auf freiwilliges Engagement verlassen zu
+  müssen.
 
 > „Mit den STF-Geldern konnten wir eine weltweite 24/7-Rufbereitschaft für den Notfall einrichten. Wir haben jetzt alle Zeitzonen abgedeckt.”
 
