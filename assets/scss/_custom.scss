@@ -1,5 +1,5 @@
 :root,
-[data-theme="light"] {
+[data-theme='light'] {
   --nav-width: 5rem;
   --toggle: #{$primary};
   --background-color: #{$white};
@@ -25,7 +25,7 @@
   --twitter-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%232b7bb9' d='M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z'%3E%3C/path%3E%3C/svg%3E");
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
   --nav-width: 5rem;
   --toggle: #{$white};
   --background-color: #{$gray-900};
@@ -66,8 +66,8 @@ html {
 body {
   position: relative;
   line-height: 1.5;
-  font-family: "Inter", sans-serif;
-  font-feature-settings: "calt" 1, "frac" 1, "case" 1, "ccmp" 1, "ss01" 1, "ss02" 1, "ss03" 1, "zero" 1;
+  font-family: 'Inter', sans-serif;
+  font-feature-settings: 'calt' 1, 'frac' 1, 'case' 1, 'ccmp' 1, 'ss01' 1, 'ss02' 1, 'ss03' 1, 'zero' 1;
   overflow-y: scroll;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -75,7 +75,7 @@ body {
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: "Inter var", sans-serif;
+    font-family: 'Inter var', sans-serif;
   }
 }
 
@@ -131,7 +131,9 @@ body {
 }
 
 main {
-  p, article, a {
+  p,
+  article,
+  a {
     color: var(--text-opposite);
   }
 }
@@ -146,9 +148,9 @@ table {
   box-shadow: 5px 5px 0 0 var(--text-opposite);
   border-color: var(--text-opposite);
   margin-bottom: 2rem;
-  
+
   tr {
-    td:first-child{
+    td:first-child {
       font-weight: bold;
     }
   }
@@ -161,7 +163,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-feature-settings: "ss01" 1, "ss03" 1, "zero" 1, "cv02" 1, "cv11" 1;
+  font-feature-settings: 'ss01' 1, 'ss03' 1, 'zero' 1, 'cv02' 1, 'cv11' 1;
   font-weight: 600;
   letter-spacing: -0.025em;
 }
@@ -240,7 +242,7 @@ h6 {
   position: fixed;
   top: 0;
   left: -30%;
-  width: var(--nav-width);
+  width: calc(var(--nav-width) - 100px);
   height: 100vh;
   background-color: var(--sidebar);
   padding: 1.5rem 1.5rem 0 1.5rem;
@@ -316,7 +318,7 @@ h6 {
     color: #{$purple};
 
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       width: 0.3rem;
@@ -348,7 +350,7 @@ h6 {
 }
 
 .active:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 0.3rem;
@@ -406,7 +408,7 @@ h6 {
       color: #{$white};
 
       &.active:before {
-        content: "";
+        content: '';
         left: -1.2rem;
         width: 0.25rem;
         top: 0;
@@ -436,7 +438,7 @@ figcaption {
   }
 
   .show {
-    width: calc(var(--nav-width) + 400px);
+    width: calc(var(--nav-width) + 250px);
     & .hidden-text,
     & .hidden {
       visibility: visible;
@@ -444,7 +446,7 @@ figcaption {
   }
 
   .body-pd {
-    padding-left: calc(var(--nav-width) + 400px);
+    padding-left: calc(var(--nav-width) + 250px);
   }
 }
 
@@ -459,6 +461,8 @@ figcaption {
 
   p {
     font-size: 1.1rem;
+    text-align: justify;
+    hyphens: auto;
   }
 
   blockquote {
@@ -467,7 +471,7 @@ figcaption {
     padding: 1rem !important;
     border: 1px solid var(--text-opposite) !important;
     box-shadow: 10px 10px 0 0 var(--text-opposite) !important;
-  
+
     p {
       margin: 0;
     }
@@ -567,7 +571,6 @@ figcaption {
     }
   }
 
-
   & table {
     width: 100%;
   }
@@ -618,7 +621,7 @@ figcaption {
 
 // Twitter
 .twitter-tweet {
-  font-family: "Inter" !important;
+  font-family: 'Inter' !important;
   color: var(--text-color) !important;
   border-left: 0.5rem solid #2b7bb9 !important;
   position: relative;
@@ -709,7 +712,7 @@ figcaption {
 
   span {
     text-decoration: underline;
-    color: #3E36A5;
+    color: #3e36a5;
   }
 }
 
@@ -723,7 +726,6 @@ hr {
 
 .light-theme-logo,
 .dark-theme-logo {
-
   &.hidden {
     display: none;
   }
@@ -734,7 +736,7 @@ hr {
 
   span {
     color: var(--text-opposite);
-    
+
     &.hidden {
       display: none;
     }
