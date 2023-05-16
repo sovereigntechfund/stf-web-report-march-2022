@@ -242,7 +242,7 @@ h6 {
   position: fixed;
   top: 0;
   left: -30%;
-  width: calc(var(--nav-width) - 100px);
+  width: calc(var(--nav-width));
   height: 100vh;
   background-color: var(--sidebar);
   padding: 1.5rem 1.5rem 0 1.5rem;
