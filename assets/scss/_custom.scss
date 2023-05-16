@@ -601,10 +601,6 @@ figcaption {
   }
 }
 
-.scrollable-table {
-  overflow-x: scroll;
-}
-
 // Pagination
 .pagination {
   & a {
@@ -742,5 +738,11 @@ hr {
     &.hidden {
       display: none;
     }
+  }
+}
+
+@media only screen and (max-width: 1242px) {
+  .scrollable-table {
+    overflow-x: scroll;
   }
 }
