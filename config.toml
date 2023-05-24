@@ -1,4 +1,4 @@
-baseURL = "https://uradotdesign.github.io/stf/"
+baseURL = "https://cool-naiad-68db59.netlify.app/"
 title = "Sovereign Tech Fund"
 
 languageCode = "en-us"
@@ -33,7 +33,7 @@ pluralizeListTitles = false
 
 [author]
   name = "Sovereign Tech Fund"
-  email = "contact@applecensorship.com"
+  email = "info@sovereigntechfund.de"
 
 [markup]
   [markup.tableOfContents]
